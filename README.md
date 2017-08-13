@@ -1,0 +1,1 @@
+base58 based url-shortener by Nikodem Ignas (nidev866)
