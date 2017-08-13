@@ -71,4 +71,4 @@ app.post('/api/shorten', function(req, res){
   })
 })
 
-const server = app.listen(process.env.PORT , () => console.log('Server listening on port 8080'))
+const server = app.listen(process.env.PORT , () => console.log('Server listening'))
