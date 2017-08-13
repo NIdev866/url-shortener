@@ -5,9 +5,6 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const config = require('./configuration')
 const base58 = require('./encodingModule/encodingBase58.js')
-require('dotenv').config({
-  silent: true
-})
 
 const Url = require('./schemas/urlSchema.js')
 mongoose.connect(process.env.MONGOLAB_URI)
@@ -74,4 +71,4 @@ app.post('/api/shorten', function(req, res){
   })
 })
 
-const server = app.listen(8080, () => console.log('Server listening on port 8080'))
+const server = app.listen(process.env.PORT , () => console.log('Server listening on port 8080'))
