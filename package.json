@@ -1,20 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "urlShortener",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nikodem Ignas (nidev866)",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.14.1",
-    "express": "^4.13.3",
-    "mongoose": "4.2.9"
-  }
-=======
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "redirecting practice",
@@ -31,6 +15,5 @@
   "bugs": {
     "url": "https://github.com/NIdev866/url-shortener/issues"
   },
-  "homepage": "https://github.com/NIdev866/url-shortener#readme"
->>>>>>> f812a728436fa4f476c10de9a7ca1c09116d966e
+  "homepage": "https:/github.com/NIdev866/url-shortener#readme"
 }
